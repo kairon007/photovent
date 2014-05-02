@@ -25,7 +25,7 @@ import com.firebase.client.FirebaseError;
 
 /**
  * @author Henoch
- * Android interface for selecting or creating photovents.
+ * Android interface for selecting or creating photovents. -
  */
 public class MainActivity extends Activity {
 	
