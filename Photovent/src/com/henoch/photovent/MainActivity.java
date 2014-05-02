@@ -129,7 +129,7 @@ public class MainActivity extends Activity {
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 			LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-			final View v = inflater.inflate(R.layout.button_detail_component, parent, false);
+			final android.view.View v = inflater.inflate(R.layout.button_detail_component, parent, false);
 			Button button = (Button) v.findViewById(R.id.eventButtonView);
 			button.setText(eventNames.get(position));
 			
